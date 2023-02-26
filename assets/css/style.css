@@ -1,0 +1,238 @@
+body {
+    background: url('../img/back.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.content {
+    margin-top: 45%;
+}
+
+nav {
+    background-color: #0E2F5A !important;
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+.nav-link:hover {
+    color: rgb(168, 168, 168);
+}
+
+.back-white {
+    background-color: #FFF;
+    padding: 5%;
+    width: 100%;
+
+}
+
+.divider {
+    background: #fff;
+    width: 25%;
+}
+
+.me {
+    background-color: #082447;
+    padding: 5%;
+    width: 100%;
+}
+
+.me-photo {
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+    width: 300px
+}
+
+
+.info {
+    position: relative;
+    padding-left: 10%;
+}
+
+.photo {
+    position: relative;
+    float: right;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+
+}
+
+.space {
+    margin-left: 1%;
+}
+
+.contact-1 {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.img-1 {
+    float: left;
+}
+
+.divpadre {
+    float: left;
+    position: relative;
+    padding-right: 10%;
+}
+
+footer {
+    background-color: #082447;
+    flex: 1;
+
+}
+
+.line-skills {
+    background-color: #212529;
+    height: 4px;
+    position: absolute;
+    margin-top: 6px;
+    width: 280px;
+}
+
+.circle-skills {
+    background-color: #212529;
+    border-radius: 100%;
+    height: 16px !important;
+    position: absolute;
+    width: 16px !important;
+
+}
+
+.skills-container {
+    display: flex;
+    width: 100%;
+}
+
+.skills {
+    padding-bottom: 1%;
+}
+
+.skills1 {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.skills2 {
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.icons {
+    color: #fff;
+    padding: 0% 6% 0% 6%;
+}
+
+.icon {
+    padding: 0% 7% 0% 7%;
+}
+
+.icon-exp {
+    padding: 0% 3% 0% 3%;
+}
+
+.instagram:hover {
+    color: #AD308B;
+    cursor: pointer;
+
+}
+
+.whatsapp:hover {
+    color: #25d366;
+    cursor: pointer;
+}
+
+.gmail:hover {
+    color: #dd4b39;
+    cursor: pointer;
+}
+
+.linkedln:hover {
+    color: #006394;
+    cursor: pointer;
+}
+
+.github:hover {
+    color: #696969;
+    cursor: pointer;
+}
+
+.graduate:hover {
+    color: #a8a8a8;
+    cursor: pointer;
+}
+
+/* -------------- 
+        Fonts
+   --------------*/
+
+h2,
+h1,
+h4,
+p,
+a,
+li {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+.txt-pro {
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt-link {
+    color: #1f3a55;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: rgb(194, 194, 194);
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.junior {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #04162c;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(155, 155, 155);
+  }
